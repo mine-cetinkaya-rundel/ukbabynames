@@ -1,10 +1,10 @@
 Package: ukbabynames
 Title: UK Baby Names Data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Thomas J.", "Leeper", , "thosjleeper@gmail.com", c("aut", "cre"))
     )
-Description: Full listing of UK baby names occuring more than three times per year between 1996 and 2015, and rankings of baby name popularity by decade from 1904 to 1994.
+Description: Full listing of UK baby names occurring more than three times per year between 1996 and 2015, and rankings of baby name popularity by decade from 1904 to 1994.
 Depends:
     R (>= 2.10)
 License: CC0

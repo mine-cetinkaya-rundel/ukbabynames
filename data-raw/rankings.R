@@ -25,7 +25,9 @@ girls_long <- cbind(girls_long, 2L)
 names(girls_long) <- c("name", "year", "rank", "sex")
 
 rankings <- rbind(boys_long, girls_long)
-rankings[["name"]] <- tools::toTitleCase(rankings[["name"]])
+rankings$year <- as.numeric(rankings$year)
+rankings$rank <- as.numeric(rankings$rank)
+rankings[["name"]] <- tools::toTitleCase(tolower(rankings[["name"]]))
 rankings[["sex"]] <- c("M", "F")[rankings[["sex"]]]
 
 # export
