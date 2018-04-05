@@ -10,10 +10,10 @@ It is inspired by Hadley Wickham's [**babynames** package](https://cran.r-projec
 
 ## Installation
 
-[![CRAN](http://www.r-pkg.org/badges/version/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
+[![CRAN](https://www.r-pkg.org/badges/version/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
 [![Build Status](https://travis-ci.org/leeper/ukbabynames.svg?branch=master)](https://travis-ci.org/leeper/ukbabynames)
-[![codecov.io](http://codecov.io/github/leeper/ukbabynames/coverage.svg?branch=master)](http://codecov.io/github/leeper/ukbabynames?branch=master)
-![Downloads](http://cranlogs.r-pkg.org/badges/ukbabynames)
+[![codecov.io](https://codecov.io/github/leeper/ukbabynames/coverage.svg?branch=master)](https://codecov.io/github/leeper/ukbabynames?branch=master)
+![Downloads](https://cranlogs.r-pkg.org/badges/ukbabynames)
 
 **ukbabynames** is on CRAN. To install the latest version, simply use:
 
@@ -25,9 +25,9 @@ To install the latest development version of **ukbabynames** from GitHub:
 
 ```R
 # latest (potentially unstable) version from GitHub
-if (!require("ghit")) {
-    install.packages("ghit")
+if (!require("remotes")) {
+    install.packages("remotes")
 }
-ghit::install_github("leeper/ukbabynames")
+remotes::install_github("leeper/ukbabynames")
 ```
 
