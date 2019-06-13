@@ -13,6 +13,8 @@ download <- function(x, sex, year) {
 
 # download girls data
 dir.create("f")
+download("2017girlsnames.xls", "f", 2017)
+download("2016girlsnames.xls", "f", 2016)
 download("2015girlsnamesfinal.xls", "f", 2015)
 download("2014girlsbyareagorrsmonthwebtables_tcm77-413741.xls", "f", 2014)
 download("2013girlsbyareagorrsmonthwebtables_tcm77-374588.xls", "f", 2013)
@@ -36,6 +38,8 @@ download("1996girls_tcm77-254024.xls", "f", 1996)
 
 # download boys data
 dir.create("m")
+download("2017boysnames.xls", "m", 2017)
+download("2016boysnames.xls", "m", 2016)
 download("2015boysnamesfinal.xls", "m", 2015)
 download("2014boysbyareagorrsmonthwebtables_tcm77-413738.xls", "m", 2014)
 download("2013boysbyareagorrsmonthwebtables_tcm77-374580.xls", "m", 2013)
@@ -90,6 +94,8 @@ girls[[17]] <- read_plus("f", 2012, range = "Table 6 - Girls names - E&W!B6:D773
 girls[[18]] <- read_plus("f", 2013, range = "Table 6 - Girls names - E&W!B6:D7543", col_names = FALSE)
 girls[[19]] <- read_plus("f", 2014, range = "Table 6 - Girls names - E&W!B6:D7442", col_names = FALSE)
 girls[[20]] <- read_plus("f", 2015, range = "Table 6!B6:D7474", col_names = FALSE)
+girls[[21]] <- read_plus("f", 2016, range = "Table 6!B6:D7519", col_names = FALSE)
+girls[[22]] <- read_plus("f", 2017, range = "Table 6!A7:C7521", col_names = FALSE)
 
 # import boys data
 boys <- list()
@@ -113,6 +119,8 @@ boys[[17]] <- read_plus("m", 2012, range = "Table 6 - Boys names - E&W!B6:D6199"
 boys[[18]] <- read_plus("m", 2013, range = "Table 6 - Boys names - E&W!B6:D6059", col_names = FALSE)
 boys[[19]] <- read_plus("m", 2014, range = "Table 6 - Boys names - E&W!B7:D6041", col_names = FALSE)
 boys[[20]] <- read_plus("m", 2015, range = "Table 6!B7:D6085", col_names = FALSE)
+boys[[21]] <- read_plus("m", 2016, range = "Table 6!B7:D6253", col_names = FALSE)
+boys[[22]] <- read_plus("m", 2017, range = "Table 6!A7:C6170", col_names = FALSE)
 
 # combine
 ukbabynames <- rbind(do.call("rbind", girls), do.call("rbind", boys))
