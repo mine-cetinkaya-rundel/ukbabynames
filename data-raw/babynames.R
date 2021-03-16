@@ -159,3 +159,4 @@ ukbabynames <- ukbabynames[c("year", "sex", "name", "n", "rank")]
 # export
 write.csv(ukbabynames, "ukbabynames.csv", row.names = FALSE, quote = FALSE)
 usethis::use_data(ukbabynames, overwrite = TRUE, compress = 'xz')
+

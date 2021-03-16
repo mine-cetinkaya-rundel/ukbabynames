@@ -32,4 +32,5 @@ rankings[["sex"]] <- c("M", "F")[rankings[["sex"]]]
 
 # export
 write.csv(rankings, "rankings.csv", row.names = FALSE, quote = FALSE)
-devtools::use_data(rankings, overwrite = TRUE, compress = 'xz')
+usethis::use_data(rankings, overwrite = TRUE, compress = 'xz')
+
