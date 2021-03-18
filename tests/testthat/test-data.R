@@ -1,7 +1,7 @@
 context("test-data-ukbabynames")
 
 test_that("nrow matches docs", {
-  expect_equal(254889, nrow(ukbabynames))
+  expect_equal(281667, nrow(ukbabynames))
 })
 
 test_that("years match version 0.1.1", {
