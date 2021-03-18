@@ -1,14 +1,10 @@
 # construct the `rankings` dataset from source
+# there isn't a more updated version of this dataset on the ONS website
 
-requireNamespace("readxl")
+library(readxl)
 
-if (!file.exists("historicname_tcm77-254032.xls")) {
-    download.file("https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalestop100babynameshistoricaldata/19041994/historicname_tcm77-254032.xls", 
-    "historicname_tcm77-254032.xls", mode = "wb")
-}
-
-boys <- as.data.frame(readxl::read_excel("historicname_tcm77-254032.xls", sheet = "Boys", range = "A4:K100", col_names = FALSE))
-girls <- as.data.frame(readxl::read_excel("historicname_tcm77-254032.xls", sheet = "Girls", range = "A4:K100", col_names = FALSE))
+boys <- as.data.frame(readxl::read_excel("data-raw/historicname_tcm77-254032.xls", sheet = "Boys", range = "A4:K100", col_names = FALSE))
+girls <- as.data.frame(readxl::read_excel("data-raw/historicname_tcm77-254032.xls", sheet = "Girls", range = "A4:K100", col_names = FALSE))
 
 names(boys) <- boys[1L,]
 names(girls) <- girls[1L,]
@@ -29,7 +25,9 @@ rankings$year <- as.numeric(rankings$year)
 rankings$rank <- as.numeric(rankings$rank)
 rankings[["name"]] <- tools::toTitleCase(tolower(rankings[["name"]]))
 rankings[["sex"]] <- c("M", "F")[rankings[["sex"]]]
+rankings <- tibble::tibble(rankings)
 
 # export
-write.csv(rankings, "rankings.csv", row.names = FALSE, quote = FALSE)
-devtools::use_data(rankings, overwrite = TRUE, compress = 'xz')
+readr::write_csv(rankings, "data-raw/rankings.csv")
+usethis::use_data(rankings, overwrite = TRUE)
+
