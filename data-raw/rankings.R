@@ -28,6 +28,6 @@ rankings[["sex"]] <- c("M", "F")[rankings[["sex"]]]
 rankings <- tibble::tibble(rankings)
 
 # export
-readr::write_csv(rankings, "data-rankings.csv")
+readr::write_csv(rankings, "data-raw/rankings.csv")
 usethis::use_data(rankings, overwrite = TRUE)
 
