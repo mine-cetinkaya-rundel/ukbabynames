@@ -99,12 +99,15 @@ G2017 <- read_excel("data-raw/babynamesNI/f+m-NI/1997-2018.xlsx", sheet  = "Tabl
 G2018 <- read_excel("data-raw/babynamesNI/f+m-NI/1997-2018.xlsx", sheet  = "Table 2", range = "BL5:BN565", col_names = FALSE) %>%
   mutate(sex = "G", year = 2018)
 
-B1997
-B1998
 
 NIbabynames <- rbind(B1997, B1998, B1999, B2000, B2001, B2002, B2003, B2004, B2005, B2006, B2007, B2008, B2009, B2010,
                      B2011, B2012, B2013, B2014, B2015, B2016, B2017, B2018, G1997, G1998, G1999, G2000, G2001, G2002,
                      G2003, G2004, G2005, G2006, G2007, G2008, G2009, G2010, G2011, G2012, G2013, G2014, G2015, G2016, 
-                     G2017, G2018)
-NIbabynames
-# read_excel has sheet argument.
+                     G2017, G2018) %>%
+  rename(
+    name = ...1,
+    n = ...2,
+    rank = ...3
+  )
+NIbabynames <- NIbabynames[,c(5,4,1,2,3)] %>%
+write_csv("data-raw/babynamesNI/NIbabynames.csv")
