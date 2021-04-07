@@ -1,0 +1,13 @@
+url: https://mine-cetinkaya-rundel.github.io/ukbabynames
+
+navbar:
+  left:
+  - text: Reference
+    href: reference/index.html
+    
+reference:
+- title: Datasets
+  contents:
+  - ukbabynames
+  - rankings
+  
