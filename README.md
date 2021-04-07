@@ -2,11 +2,17 @@
   
 # UK Baby Names
 
-This package contains two datasets provided by the UK Office of National Statistics:
+This package contains four datasets:
 
-* `ukbabynames`: For each year from 1996 to 2019, the number of children of each sex given each name. All names with more than 3 uses are included.
+* `babynamesEW`: For each year from 1996 to 2019, the number of children of each sex given each name in England and Wales. All names with more than 3 uses are included. Provided by the UK Office of National Statistics.
 
-* `rankings`: A longitudinal dataset containing the top-100 baby girl and top-100 baby boy names over the period 1904 to 1994.
+* `babynamesNI`: For each year from 1997 to 2018, the number of children of each sex given each name in Northern Ireland. Provided by the Northern Ireland Statistics and Research Agency.
+
+* `babynamesScot`: For each year from 1974 to 2020, the number of children of each sex given each name in Scotland. Provided by the National Records of Scotland.
+
+
+* `UKbabynames`: Each of the above datasets is bound into one dataset with an added nation column based on which dataset it came from.
+
 
 It is inspired by Hadley Wickham's [**babynames** package](https://cran.r-project.org/package=babynames).
 
