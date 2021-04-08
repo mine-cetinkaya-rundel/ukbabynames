@@ -5,7 +5,7 @@
 #'
 #' @name ewbabynames
 #' @docType data
-#' @format A data frame with 254889 observations on 5 variables.
+#' @format A data frame with 281667 observations on 5 variables.
 #' \describe{
 #'   \item{year}{A year (1996-2019)}
 #'   \item{sex}{Sex, M = Male and F = Female.}
