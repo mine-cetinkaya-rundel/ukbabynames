@@ -13,13 +13,14 @@ scotbabynames <- readr::read_csv("data-raw/scotbabynames/f-m/1974-2020.csv")
 
 # clean scot data --------------------------------------------------------------
 
-scotbabynames %>%
+scotbabynames <- scotbabynames %>%
   rename(
     year = yr,
     name = FirstForename,
     n = number
   ) %>%
   subset(select = c(year, sex, name, n, rank)) %>%
+  mutate(sex = if_else(sex == "B", "M", "F")) %>%
   mutate(nation = "Scotland")
 
 # export -----------------------------------------------------------------------
