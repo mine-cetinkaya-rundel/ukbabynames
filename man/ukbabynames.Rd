@@ -3,7 +3,6 @@
 \docType{data}
 \name{ukbabynames}
 \alias{ukbabynames}
-\alias{ukbabynames-package}
 \title{UK baby names}
 \format{
 A data frame with 254889 observations on 5 variables.

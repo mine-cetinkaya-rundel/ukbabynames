@@ -3,7 +3,6 @@
 \docType{data}
 \name{scotbabynames}
 \alias{scotbabynames}
-\alias{ewbabynames}
 \title{Scotland baby names}
 \format{
 A data frame with 281667 observations on 5 variables.
@@ -21,7 +20,7 @@ Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulati
 Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{\dQuote{Baby Names Statistics Boys}}.
 }
 \usage{
-ewbabynames
+scotbabynames
 }
 \description{
 Full baby name data from 1996 to 2019 for England and Wales

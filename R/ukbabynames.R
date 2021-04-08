@@ -1,5 +1,4 @@
 #' @rdname ukbabynames
-#' @aliases ukbabynames ukbabynames-package
 #' @title UK baby names
 #' @description Full baby name 1996-2019 for the United Kingdom from the Office of National Statistics
 #'

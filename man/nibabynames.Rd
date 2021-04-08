@@ -3,7 +3,6 @@
 \docType{data}
 \name{nibabynames}
 \alias{nibabynames}
-\alias{ewbabynames}
 \title{Northern Ireland baby names}
 \format{
 A data frame with 281667 observations on 5 variables.
@@ -21,7 +20,7 @@ Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulati
 Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{\dQuote{Baby Names Statistics Boys}}.
 }
 \usage{
-ewbabynames
+nibabynames
 }
 \description{
 Full baby name data from 1996 to 2019 for England and Wales
