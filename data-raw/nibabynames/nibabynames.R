@@ -116,7 +116,8 @@ nibabynames <- bind_rows(
     rank = `...3`
   ) %>%
   select(year, sex, name, n, rank) %>%
-  mutate(sex = if_else(sex == "B", "M", "F"))
+  mutate(sex = if_else(sex == "B", "M", "F")) %>%
+  mutate(nation = "Northern Ireland")
 
 # export -----------------------------------------------------------------------
   
