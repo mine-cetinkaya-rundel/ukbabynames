@@ -160,5 +160,5 @@ ewbabynames <- ewbabynames %>%
 
 # export -----------------------------------------------------------------------
 
-readr::write_csv(ewbabynames, "ewbabynames.csv")
+readr::write_csv(ewbabynames, "data-raw/ewbabynames/ewbabynames.csv")
 usethis::use_data(ewbabynames, overwrite = TRUE)
