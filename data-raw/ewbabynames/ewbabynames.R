@@ -1,6 +1,11 @@
-# construct the `ewbabynames` dataset from source ------------------------------
+# construct the `ewbabynames` dataset from source
 
-library("readxl")
+# load packages ----------------------------------------------------------------
+
+library(readxl)
+library(dplyr)
+library(readr)
+library(usethis)
 
 # function to download and rename files ----------------------------------------
 

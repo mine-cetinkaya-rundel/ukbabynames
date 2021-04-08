@@ -1,3 +1,11 @@
+# construct the `scotbabynames` dataset from source
+
+# load packages ----------------------------------------------------------------
+
+library(dplyr)
+library(readr)
+library(usethis)
+
 # download the `scotbabynames` dataset from nrscotland.gov --------------------
 
 dir.create("data-raw/scotbabynames/f-m")

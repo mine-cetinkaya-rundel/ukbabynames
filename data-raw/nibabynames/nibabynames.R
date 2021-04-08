@@ -1,6 +1,10 @@
+# construct the `nibabynames` dataset from source
+
 # load packages ----------------------------------------------------------------
 
 library(dplyr)
+library(readr)
+library(usethis)
 
 # download the `nibabynames` dataset from nisra.gov ----------------------------
 

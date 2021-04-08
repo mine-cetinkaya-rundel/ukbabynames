@@ -1,6 +1,10 @@
+# construct the `ukbabynames` dataset from others
+
 # load packages ----------------------------------------------------------------
 
 library(dplyr)
+library(readr)
+library(usethis)
 
 # put it altogether ------------------------------------------------------------
 
