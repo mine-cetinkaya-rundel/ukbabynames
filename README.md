@@ -13,7 +13,6 @@ This package contains four datasets:
 
 * `UKbabynames`: Each of the above datasets is bound into one dataset with an added nation column based on which dataset it came from.
 
-
 It is inspired by Hadley Wickham's [**babynames** package](https://cran.r-project.org/package=babynames).
 
 ## Installation
