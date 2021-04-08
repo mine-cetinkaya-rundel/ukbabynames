@@ -155,7 +155,8 @@ ewbabynames[["name"]] <- tools::toTitleCase(tolower(ewbabynames[["name"]]))
 names(ewbabynames) <- c("rank", "name", "n", "year", "sex")
 ewbabynames <- ewbabynames %>%
     tibble::as_tibble() %>%
-    dplyr::select(year, sex, name, n, rank)
+    dplyr::select(year, sex, name, n, rank) %>%
+    mutate(nation = "England & Wales")
 
 # export -----------------------------------------------------------------------
 

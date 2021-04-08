@@ -12,6 +12,7 @@ A data frame with 281667 observations on 5 variables.
   \item{name}{A name.}
   \item{n}{Count of name within year and sex.}
   \item{rank}{Rank of name within year and sex.}
+  \item{nation}{Nation of data source.}
 }
 }
 \source{

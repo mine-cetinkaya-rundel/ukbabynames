@@ -12,6 +12,7 @@
 #'   \item{name}{A name.}
 #'   \item{n}{Count of name within year and sex.}
 #'   \item{rank}{Rank of name within year and sex.}
+#'   \item{nation}{Nation of data source.}
 #' }
 #' @details
 #' The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
