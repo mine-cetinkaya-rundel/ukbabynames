@@ -11,6 +11,7 @@ Depends:
     R (>= 2.10)
 License: CC0
 LazyData: true
+LazyDataCompression: xz
 URL: https://mine-cetinkaya-rundel.github.io/ukbabynames, http://github.com/leeper/ukbabynames
 BugReports: https://github.com/leeper/ukbabynames/issues
 RoxygenNote: 7.1.1
