@@ -1,10 +1,11 @@
-# construct the `babynames` dataset from source
+# construct the `ewbabynames` dataset from source ------------------------------
 
 library("readxl")
 
-# function to download and rename files
+# function to download and rename files ----------------------------------------
+
 download <- function(x, sex, year) {
-    dest <- paste0("data-raw/", sex, "/", year, ".xls")
+    dest <- paste0("data-raw/ewbabynames/", sex, "/", year, ".xls")
     if (!file.exists(dest)) {
         remote <- paste0("https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatistics", if (sex == "f") "girls/" else "boys/", year, "/", x)
         download.file(remote, dest, mode = "wb")
@@ -12,16 +13,16 @@ download <- function(x, sex, year) {
 }
 
 download_xlsx <- function(x, sex, year) {
-    dest <- paste0("data-raw/", sex, "/", year, ".xlsx")
+    dest <- paste0("data-raw/ewbabynames/", sex, "/", year, ".xlsx")
     if (!file.exists(dest)) {
         remote <- paste0("https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatistics", if (sex == "f") "girls/" else "boys/", year, "/", x)
         download.file(remote, dest, mode = "wb")
     }
 }
 
+# download girls data ----------------------------------------------------------
 
-# download girls data
-dir.create("data-raw/f")
+dir.create("data-raw/ewbabynames/f")
 download_xlsx("2019girlsnames.xlsx", "f", 2019)
 download("2018girlsnames.xls", "f", 2018)
 download("2017girlsnames.xls", "f", 2017)
@@ -47,8 +48,9 @@ download("1998girls_tcm77-254016.xls", "f", 1998)
 download("1997girls_tcm77-254020.xls", "f", 1997)
 download("1996girls_tcm77-254024.xls", "f", 1996)
 
-# download boys data
-dir.create("data-raw/m")
+# download boys data -----------------------------------------------------------
+
+dir.create("data-raw/ewbabynames/m")
 download_xlsx("2019boysnames.xlsx", "m", 2019)
 download("2018boysnames.xls", "m", 2018)
 download("2017boysnames.xls", "m", 2017)
@@ -74,14 +76,14 @@ download("1998boys_tcm77-254018.xls", "m", 1998)
 download("1997boys_tcm77-254022.xls", "m", 1997)
 download("1996boys_tcm77-254026.xls", "m", 1996)
 
-# import data
-## function to read data and attach year and sex variables
+# function to import data ------------------------------------------------------------------
+
 read_plus <- function(sex, year, ...) {
     if(year < 2019){
-        x <- as.data.frame(readxl::read_excel(paste0("data-raw/", sex, "/", year, ".xls"), ...))
+        x <- as.data.frame(readxl::read_excel(paste0("data-raw/ewbabynames/", sex, "/", year, ".xls"), ...))
     }
     if(year == 2019){
-        x <- as.data.frame(readxl::read_excel(paste0("data-raw/", sex, "/", year, ".xlsx"), ...))
+        x <- as.data.frame(readxl::read_excel(paste0("data-raw/ewbabynames/", sex, "/", year, ".xlsx"), ...))
     }    
     names(x) <- c("rank", "name", "n")
     stopifnot(x$rank[1L] == 1)
@@ -90,7 +92,8 @@ read_plus <- function(sex, year, ...) {
     x
 }
 
-# import girls data
+# import girls data ------------------------------------------------------------
+
 girls <- list()
 girls[[1]] <- read_plus("f", 1996, range = "Table 3 - Girls names - E&W!B7:D4963", col_names = FALSE)
 girls[[2]] <- read_plus("f", 1997, range = "Table 6 - Girls names - E&W!B7:D4974", col_names = FALSE)
@@ -117,7 +120,8 @@ girls[[22]] <- read_plus("f", 2017, range = "Table 6!A7:C7521", col_names = FALS
 girls[[23]] <- read_plus("f", 2018, range = "Table 6!A7:C7362", col_names = FALSE)
 girls[[24]] <- read_plus("f", 2019, range = "Table 6!A7:C7220", col_names = FALSE)
 
-# import boys data
+# import boys data -------------------------------------------------------------
+
 boys <- list()
 boys[[1]] <- read_plus("m", 1996, range = "Table 3 - Boys names - E&W!B7:D3720", col_names = FALSE)
 boys[[2]] <- read_plus("m", 1997, range = "Table 6 - Boys names - E&W!B7:D3770", col_names = FALSE)
@@ -144,15 +148,16 @@ boys[[22]] <- read_plus("m", 2017, range = "Table 6!A7:C6170", col_names = FALSE
 boys[[23]] <- read_plus("m", 2018, range = "Table 6!A7:C6123", col_names = FALSE)
 boys[[24]] <- read_plus("m", 2019, range = "Table 6!A7:C6097", col_names = FALSE)
 
+# combine ----------------------------------------------------------------------
 
-# combine
-ukbabynames <- rbind(do.call("rbind", girls), do.call("rbind", boys))
-ukbabynames[["name"]] <- tools::toTitleCase(tolower(ukbabynames[["name"]]))
-names(ukbabynames) <- c("rank", "name", "n", "year", "sex")
-ukbabynames <- ukbabynames[c("year", "sex", "name", "n", "rank")]
-ukbabynames <- tibble::as_tibble(ukbabynames)
+ewbabynames <- rbind(do.call("rbind", girls), do.call("rbind", boys))
+ewbabynames[["name"]] <- tools::toTitleCase(tolower(ewbabynames[["name"]]))
+names(ewbabynames) <- c("rank", "name", "n", "year", "sex")
+ewbabynames <- ewbabynames %>%
+    tibble::as_tibble() %>%
+    dplyr::select(year, sex, name, n, rank)
 
-# export
-write.csv(ukbabynames, "EWbabynames.csv", row.names = FALSE, quote = FALSE)
-usethis::use_data(ukbabynames, overwrite = TRUE, compress = 'xz')
+# export -----------------------------------------------------------------------
 
+readr::write_csv(ewbabynames, "ewbabynames.csv")
+usethis::use_data(ewbabynames, overwrite = TRUE)
