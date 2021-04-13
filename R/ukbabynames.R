@@ -10,7 +10,7 @@
 #'     [, 3] \tab name  \tab A name \cr
 #'     [, 4] \tab n     \tab Count of name within year and sex \cr
 #'     [, 5] \tab rank  \tab Rank of name within year and sex \cr
-#'     [, 5] \tab nation  \tab Nation of data source \cr
+#'     [, 6] \tab nation  \tab Nation of data source \cr
 #'   }
 #' 
 #' @details
