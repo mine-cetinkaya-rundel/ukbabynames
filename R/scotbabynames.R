@@ -1,7 +1,7 @@
 #' Scotland baby names
 #'
 #' Full baby name data from 1974 to 2020 for Scotland
-#' from the Office of National Statistics.
+#' from the National Records of Scotland.
 #'
 #' @name scotbabynames
 #' @docType data
