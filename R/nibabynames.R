@@ -1,7 +1,7 @@
 #' Northern Ireland baby names
 #'
-#' Full baby name data from 1996 to 2019 for England and Wales
-#' from the Office of National Statistics.
+#' Full baby name data from 1997 to 2018 for Northern Ireland
+#' from the Northern Ireland Statistics and Research Agency.
 #'
 #' @name nibabynames
 #' @docType data
@@ -15,10 +15,8 @@
 #'   \item{nation}{Nation of data source.}
 #' }
 #' @details
-#' The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
+#' The data are released by the Northern Ireland Statistics and Research Agency under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
 #' 
 #' @source
-#' Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{\dQuote{Baby Names Statistics Girls}}.
-#' Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{\dQuote{Baby Names Statistics Boys}}.
-#' @seealso \code{\link{rankings}}
+#' Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2018}{\dQuote{Baby Names Statistics Boys and Girls}}.
 "nibabynames"
