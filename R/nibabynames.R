@@ -7,7 +7,7 @@
 #' @docType data
 #' @format A data frame with 20500 observations on 5 variables.
 #' \describe{
-#'   \item{year}{A year (1996-2019)}
+#'   \item{year}{A year (1997-2018)}
 #'   \item{sex}{Sex, M = Male and F = Female.}
 #'   \item{name}{A name.}
 #'   \item{n}{Count of name within year and sex.}
