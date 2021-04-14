@@ -35,3 +35,4 @@ scotbabynames <- scotbabynames %>%
 
 readr::write_csv(scotbabynames, "data-raw/scotbabynames/scotbabynames.csv")
 usethis::use_data(scotbabynames, overwrite = TRUE)
+
