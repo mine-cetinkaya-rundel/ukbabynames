@@ -13,7 +13,7 @@ test_that("scotbabynames nrow matches docs", {
 })
 
 test_that("ewbabynames nrow matches docs", {
-  expect_equal(281667, nrow(ewbabyanmes))
+  expect_equal(281667, nrow(ewbabynames))
 })
 
 
