@@ -79,3 +79,8 @@ test_that("ewbabynames counts up to 2019 match.", {
   new_counts <- as.numeric(table(ewbabynames$year[ewbabynames$year <= 2019]))
   expect_equal(old_counts, new_counts)
 })
+
+
+test_that("nrows of ukbabynames is sum of nrows of all other datasets", {
+  expect_equal(nrow(ukbabynames), nrow(nibabynames) + nrow(scotbabynames) + nrow(ewbabynames))
+})
