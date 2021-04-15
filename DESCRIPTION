@@ -1,6 +1,6 @@
 Package: ukbabynames
 Title: UK Baby Names Data
-Version: 0.1.2
+Version: 0.2.0
 Authors@R: c(
     person("Mine", "\u00C7etinkaya-Rundel", email = "cetinkaya.mine@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6452-2420")),
     person("Thomas J.", "Leeper", email = "thosjleeper@gmail.com", role = c("aut")),
