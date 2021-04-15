@@ -29,4 +29,15 @@ Full baby name data 1974-2020 for the United Kingdom from all nations. Contains
 data from England and Wales (\code{ewbabynames}), Scotland (\code{scotbabynames}), and
 Northern Ireland (\code{nibabynames}).
 }
+\examples{
+
+library(ggplot2)
+library(dplyr)
+
+ukbabynames \%>\%
+  filter(name == "Nicholas", sex == "M") \%>\%
+  ggplot(aes(x = year, y = n, color = nation)) +
+  geom_line()
+
+}
 \keyword{datasets}

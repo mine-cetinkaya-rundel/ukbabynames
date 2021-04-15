@@ -20,5 +20,14 @@
 #' Office of National Statistics. 2021. [Baby Names Statistics Boys](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys).
 #' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2018).
 #' National Records of Scotland. 2021. [Baby Names Statistics Boys and Girls](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020).
+#' @examples 
+#' 
+#' library(ggplot2)
+#' library(dplyr)
+#' 
+#' ukbabynames %>%
+#'   filter(name == "Nicholas", sex == "M") %>%
+#'   ggplot(aes(x = year, y = n, color = nation)) +
+#'   geom_line()
 #' 
 "ukbabynames"
