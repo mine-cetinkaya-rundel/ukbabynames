@@ -3,21 +3,21 @@
 \docType{data}
 \name{ewbabynames}
 \alias{ewbabynames}
-\title{England and Wales baby names}
+\title{England & Wales baby names}
 \format{
-A data frame with 281667 observations on 5 variables.
-  \tabular{rll}{
-    [, 1] \tab year  \tab A year (1996-2019) \cr
-    [, 2] \tab sex   \tab \dQuote{M} = Male; \dQuote{F} = Female \cr
-    [, 3] \tab name  \tab A name \cr
-    [, 4] \tab n     \tab Count of name within year and sex \cr
-    [, 5] \tab rank  \tab Rank of name within year and sex \cr
-    [, 6] \tab nation  \tab Nation of data source \cr
-  }
+A data frame with 281,667 observations on 6 variables.
+\describe{
+\item{year}{A year (1996-2019).}
+\item{sex}{Sex, \code{M} for male and \code{F} for female.}
+\item{name}{A name.}
+\item{n}{Count of name within year and sex.}
+\item{rank}{Rank of name within year and sex.}
+\item{nation}{Nation of data source: \code{England & Wales}.}
+}
 }
 \source{
-Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{\dQuote{Baby Names Statistics Girls}}.
-Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{\dQuote{Baby Names Statistics Boys}}.
+Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{Baby Names Statistics Girls}.
+Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{Baby Names Statistics Boys}.
 }
 \usage{
 ewbabynames
@@ -30,6 +30,6 @@ from the Office of National Statistics.
 The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
 }
 \seealso{
-\code{\link{rankings}}
+\link{rankings}
 }
 \keyword{datasets}

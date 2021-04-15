@@ -1,5 +1,7 @@
 context("test-data-ukbabynames")
 
+# uk data ----------------------------------------------------------------------
+
 test_that("ukbabynames nrow matches docs", {
   expect_equal(550587, nrow(ukbabynames))
 })
@@ -16,6 +18,7 @@ test_that("ukbabynames counts up to 2020 match", {
   expect_equal(old_counts, new_counts)
 })
 
+# ni data ----------------------------------------------------------------------
 
 test_that("nibabynames nrow matches docs", {
   expect_equal(20500, nrow(nibabynames))
@@ -33,10 +36,11 @@ test_that("nibabynames counts up to 2018 match", {
   expect_equal(old_counts, new_counts)
 })
 
-
 test_that("scotbabynames nrow matches docs", {
   expect_equal(248420, nrow(scotbabynames))
 })
+
+# scot data --------------------------------------------------------------------
 
 test_that("scotbabynames years don't go below 1974", {
   old_years <- c(1974:2020)
@@ -50,7 +54,7 @@ test_that("scotbabynames counts up to 2020 match", {
   expect_equal(old_counts, new_counts)
 })
 
-
+# ew data ----------------------------------------------------------------------
 
 test_that("ewbabynames nrow matches docs", {
   expect_equal(281667, nrow(ewbabynames))
@@ -79,7 +83,6 @@ test_that("ewbabynames counts up to 2019 match.", {
   new_counts <- as.numeric(table(ewbabynames$year[ewbabynames$year <= 2019]))
   expect_equal(old_counts, new_counts)
 })
-
 
 test_that("nrows of ukbabynames is sum of nrows of all other datasets", {
   expect_equal(nrow(ukbabynames), nrow(nibabynames) + nrow(scotbabynames) + nrow(ewbabynames))

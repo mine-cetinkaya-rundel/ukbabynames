@@ -1,19 +1,20 @@
 Package: ukbabynames
 Title: UK Baby Names Data
-Version: 0.1.1
-Authors@R: c(person("Thomas J.", "Leeper",
-                    role = c("aut", "cre"), 
-                    email = "thosjleeper@gmail.com",
-                    comment = c(ORCID = "0000-0003-4097-6326"))
-             )
-Description: Full listing of UK baby names occurring more than three times per year between 1996 and 2015, and rankings of baby name popularity by decade from 1904 to 1994.
+Version: 0.1.2
+Authors@R: c(
+    person("Mine", "\u00C7etinkaya-Rundel", email = "cetinkaya.mine@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6452-2420")),
+    person("Thomas J.", "Leeper", email = "thosjleeper@gmail.com", role = c("aut")),
+    person("Nicholas", "Goguen-Compagnoni", email = "s2013017@ed.ac.uk", role = c("aut"))
+    )
+Description: Full listing of UK baby names occurring more than three times per year between 1974 and 2020, and rankings of baby name popularity by decade from 1904 to 1994.
 Depends:
     R (>= 2.10)
 License: CC0
 LazyData: true
 LazyDataCompression: xz
 URL: https://mine-cetinkaya-rundel.github.io/ukbabynames, http://github.com/leeper/ukbabynames
-BugReports: https://github.com/leeper/ukbabynames/issues
+BugReports: https://github.com/mine-cetinkaya-rundel/ukbabynames/issues
 RoxygenNote: 7.1.1
 Suggests: 
     testthat (>= 2.1.0)
+Roxygen: list(markdown = TRUE)
