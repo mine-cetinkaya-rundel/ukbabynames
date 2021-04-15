@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>England &amp; Wales top-100 baby names by year — rankings • ukbabynames</title>
+<title>Scotland baby names — scotbabynames • ukbabynames</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,9 @@
 
 
 
-<meta property="og:title" content="England &amp; Wales top-100 baby names by year — rankings" />
-<meta property="og:description" content="A longitudinal dataset containing the top-100 baby girl and top-100 baby
-boy names over the period 1904 to 1994." />
+<meta property="og:title" content="Scotland baby names — scotbabynames" />
+<meta property="og:description" content="Full baby name data from 1974 to 2020 for Scotland
+from the National Records of Scotland." />
 
 
 
@@ -103,38 +103,34 @@ boy names over the period 1904 to 1994." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>England &amp; Wales top-100 baby names by year</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mine-cetinkaya-rundel/ukbabynames/blob/master/R/rankings.R'><code>R/rankings.R</code></a></small>
-    <div class="hidden name"><code>rankings.Rd</code></div>
+    <h1>Scotland baby names</h1>
+    <small class="dont-index">Source: <a href='https://github.com/mine-cetinkaya-rundel/ukbabynames/blob/master/R/scotbabynames.R'><code>R/scotbabynames.R</code></a></small>
+    <div class="hidden name"><code>scotbabynames.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A longitudinal dataset containing the top-100 baby girl and top-100 baby
-boy names over the period 1904 to 1994.</p>
+    <p>Full baby name data from 1974 to 2020 for Scotland
+from the National Records of Scotland.</p>
     </div>
 
-    <pre class="usage"><span class='va'>rankings</span></pre>
+    <pre class="usage"><span class='va'>scotbabynames</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1,900 observations on 4 variables.</p><dl>
-<dt>name</dt><dd><p>A name.</p></dd>
-<dt>year</dt><dd><p>A year (1904-1994). Rankings are based upon births within that decade.</p></dd>
-<dt>rank</dt><dd><p>Rank of the name within decade.</p></dd>
+    <p>A data frame with 248,420 observations on 6 variables.</p><dl>
+<dt>year</dt><dd><p>A year (1974-2020).</p></dd>
 <dt>sex</dt><dd><p>Sex, <code>M</code> for male and <code>F</code> for female.</p></dd>
+<dt>name</dt><dd><p>A name.</p></dd>
+<dt>n</dt><dd><p>Count of name within year and sex.</p></dd>
+<dt>rank</dt><dd><p>Rank of name within year and sex.</p></dd>
+<dt>nation</dt><dd><p>Nation of data source: <code>Scotland</code>.</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>Office of National Statistics. 2016. <a href='https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalestop100babynameshistoricaldata'>Top 100 Baby Names Historical Data</a>.</p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>The data are released by the Office of National Statistics under the <a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'>Open Government License v3.0</a>.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><a href='ewbabynames.html'>ewbabynames</a></p></div>
+    <p>National Records of Scotland. 2021. <a href='https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020'>Baby Names Statistics Boys and Girls</a>.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
