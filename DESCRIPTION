@@ -2,11 +2,12 @@ Package: ukbabynames
 Title: UK Baby Names Data
 Version: 0.2.0
 Authors@R: c(
-    person("Mine", "\u00C7etinkaya-Rundel", email = "cetinkaya.mine@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6452-2420")),
+    person("Mine", "\u00C7etinkaya-Rundel", email = "cetinkaya.mine@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-6452-2420")),
     person("Thomas J.", "Leeper", email = "thosjleeper@gmail.com", role = c("aut")),
     person("Nicholas", "Goguen-Compagnoni", email = "s2013017@ed.ac.uk", role = c("aut"))
     )
 Description: Full listing of UK baby names occurring more than three times per year between 1974 and 2020, and rankings of baby name popularity by decade from 1904 to 1994.
+Encoding: UTF-8
 Depends:
     R (>= 2.10)
 License: CC0
