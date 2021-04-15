@@ -3,32 +3,41 @@
 \docType{data}
 \name{ukbabynames}
 \alias{ukbabynames}
-\alias{ukbabynames-package}
 \title{UK baby names}
 \format{
-A data frame with 254889 observations on 5 variables.
-  \tabular{rll}{
-    [, 1] \tab year  \tab A year (1996-2019) \cr
-    [, 2] \tab sex   \tab \dQuote{M} = Male; \dQuote{F} = Female \cr
-    [, 3] \tab name  \tab A name \cr
-    [, 4] \tab n     \tab Count of name within year and sex \cr
-    [, 5] \tab rank  \tab Rank of name within year and sex \cr
-  }
+A data frame with 550,587 observations on 6 variables.
+\describe{
+\item{year}{A year (1974-2020).}
+\item{sex}{Sex, \code{M} for male and \code{F} for female.}
+\item{name}{A name.}
+\item{n}{Count of name within year and sex.}
+\item{rank}{Rank of name within year and sex.}
+\item{nation}{Nation of data source.}
+}
 }
 \source{
-Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{\dQuote{Baby Names Statistics Girls}}.
-Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{\dQuote{Baby Names Statistics Boys}}.
+Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{Baby Names Statistics Girls}.
+Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{Baby Names Statistics Boys}.
+Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2018}{Baby Names Statistics Boys and Girls}.
+National Records of Scotland. 2021. \href{https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020}{Baby Names Statistics Boys and Girls}.
 }
 \usage{
 ukbabynames
 }
 \description{
-Full baby name 1996-2019 for the United Kingdom from the Office of National Statistics
+Full baby name data 1974-2020 for the United Kingdom from all nations. Contains
+data from England and Wales (\code{ewbabynames}), Scotland (\code{scotbabynames}), and
+Northern Ireland (\code{nibabynames}).
 }
-\details{
-The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
-}
-\seealso{
-\code{\link{rankings}}
+\examples{
+
+library(ggplot2)
+library(dplyr)
+
+ukbabynames \%>\%
+  filter(name == "Nicholas", sex == "M") \%>\%
+  ggplot(aes(x = year, y = n, color = nation)) +
+  geom_line()
+
 }
 \keyword{datasets}

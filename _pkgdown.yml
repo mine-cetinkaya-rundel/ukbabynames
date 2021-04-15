@@ -8,6 +8,9 @@ navbar:
 reference:
 - title: Datasets
   contents:
+  - ewbabynames
+  - nibabynames
+  - scotbabynames
   - ukbabynames
   - rankings
   
