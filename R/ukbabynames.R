@@ -21,13 +21,15 @@
 #' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2018).
 #' National Records of Scotland. 2021. [Baby Names Statistics Boys and Girls](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020).
 #' @examples 
-#' 
 #' library(ggplot2)
 #' library(dplyr)
 #' 
 #' ukbabynames %>%
-#'   filter(name == "Nicholas", sex == "M") %>%
-#'   ggplot(aes(x = year, y = n, color = nation)) +
+#'   mutate(Frequency = n/nrow(ukbabynames)) %>%
+#'   filter(name == "Jack") %>%
+#'   ggplot(aes(x = year, y = Frequency, color = nation)) +
+#'   labs(title = "Frequency of the Name Jack in The United Kingdom", subtitle = "Over Time,
+#'   by Nation", x = "Year", color = NULL) +
+#'   theme_bw() +
 #'   geom_line()
-#' 
 "ukbabynames"

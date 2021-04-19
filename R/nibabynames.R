@@ -16,5 +16,16 @@
 #'   }
 #' @source
 #' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2018).
+#' @examples 
+#' library(ggplot2)
+#' library(dplyr)
 #' 
+#' nibabynames %>%
+#'   mutate(Frequency = n/nrow(nibabynames)) %>%
+#'   filter(name == "Joseph") %>%
+#'   ggplot(aes(x = year, y = Frequency)) +
+#'   labs(title = "Frequency of the Name Joseph in Northern Ireland", subtitle = "Over Time",
+#'        x = "Year") +
+#'   theme_bw() +
+#'   geom_line()
 "nibabynames"
