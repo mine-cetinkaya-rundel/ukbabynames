@@ -17,6 +17,16 @@ A data frame with 248,420 observations on 6 variables.
 }
 \source{
 National Records of Scotland. 2021. \href{https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020}{Baby Names Statistics Boys and Girls}.
+library(ggplot2)
+library(dplyr)
+
+scotbabynames \%>\%
+mutate(Frequency = n/nrow(scotbabynames)) \%>\%
+filter(name == "Ava") \%>\%
+ggplot(aes(x = year, y = Frequency)) +
+labs(title = "Frequency of the Name Ava in Scotland", subtitle = "Over Time", x = "Year") +
+theme_bw() +
+geom_line()
 }
 \usage{
 scotbabynames

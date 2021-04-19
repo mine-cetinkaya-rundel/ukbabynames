@@ -29,6 +29,19 @@ from the Office of National Statistics.
 \details{
 The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
 }
+\examples{
+library(ggplot2)
+library(dplyr)
+
+ewbabynames \%>\%
+  mutate(Frequency = n/nrow(ewbabynames)) \%>\%
+  filter(name == "Nicholas") \%>\%
+  ggplot(aes(x = year, y = Frequency)) +
+  labs(title = "Frequency of the Name Nicholas in England & Wales", subtitle = "Over Time",
+       x = "Year") +
+  theme_bw() +
+  geom_line()
+}
 \seealso{
 \link{rankings}
 }
