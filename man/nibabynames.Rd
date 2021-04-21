@@ -25,4 +25,17 @@ nibabynames
 Full baby name data from 1997 to 2018 for Northern Ireland
 from the Northern Ireland Statistics and Research Agency.
 }
+\examples{
+library(ggplot2)
+library(dplyr)
+
+nibabynames \%>\%
+  mutate(Frequency = n/nrow(nibabynames)) \%>\%
+  filter(name == "Joseph") \%>\%
+  ggplot(aes(x = year, y = Frequency)) +
+  labs(title = "Frequency of the Name Joseph in Northern Ireland", subtitle = "Over Time",
+       x = "Year") +
+  theme_bw() +
+  geom_line()
+}
 \keyword{datasets}
