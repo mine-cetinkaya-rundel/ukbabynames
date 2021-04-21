@@ -29,7 +29,8 @@
 #'   geom_line() +
 #'   labs(
 #'     title = "Popularity of the name `Nicholas` in England & Wales", 
-#'     x = "Year", y = "Number of babies"
+#'     x = "Year", 
+#'     y = "Number of babies"
 #'     )
 "ewbabynames"
 

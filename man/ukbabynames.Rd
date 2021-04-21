@@ -36,8 +36,11 @@ library(dplyr)
 ukbabynames \%>\%
   filter(name == "Jack") \%>\%
   ggplot(aes(x = year, y = n, color = nation)) +
+  geom_line() +
   labs(
-     title = "Popularity of the name `Jack` in the UK, by Nation", /x = "Year", color = NULL) +
-  geom_line()
+     title = "Popularity of the name `Jack` in the UK",
+     subtitle = "by Nation", 
+     x = "Year", y = "Number of babies",  color = NULL
+     )
 }
 \keyword{datasets}
