@@ -23,13 +23,13 @@
 #' library(ggplot2)
 #' library(dplyr)
 #' 
-#' ewbabynames %>%
-#'   mutate(Frequency = n/nrow(ewbabynames)) %>%
+#' ewswbabynames %>%
 #'   filter(name == "Nicholas") %>%
-#'   ggplot(aes(x = year, y = Frequency)) +
-#'   labs(title = "Frequency of the Name Nicholas in England & Wales", subtitle = "Over Time",
-#'        x = "Year") +
-#'   theme_bw() +
-#'   geom_line()
+#'   ggplot(aes(x = year, y = n)) +
+#'   geom_line() +
+#'   labs(
+#'     title = "Popularity of the name `Nicholas` in England & Wales", 
+#'     x = "Year", y = "Number of babies"
+#'     )
 "ewbabynames"
 

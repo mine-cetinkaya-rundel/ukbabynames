@@ -34,12 +34,10 @@ library(ggplot2)
 library(dplyr)
 
 ukbabynames \%>\%
-  mutate(Frequency = n/nrow(ukbabynames)) \%>\%
   filter(name == "Jack") \%>\%
-  ggplot(aes(x = year, y = Frequency, color = nation)) +
-  labs(title = "Frequency of the Name Jack in The United Kingdom", subtitle = "Over Time,
-  by Nation", x = "Year", color = NULL) +
-  theme_bw() +
+  ggplot(aes(x = year, y = n, color = nation)) +
+  labs(
+     title = "Popularity of the name `Jack` in the UK, by Nation", /x = "Year", color = NULL) +
   geom_line()
 }
 \keyword{datasets}

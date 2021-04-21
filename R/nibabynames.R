@@ -21,11 +21,11 @@
 #' library(dplyr)
 #' 
 #' nibabynames %>%
-#'   mutate(Frequency = n/nrow(nibabynames)) %>%
 #'   filter(name == "Joseph") %>%
-#'   ggplot(aes(x = year, y = Frequency)) +
-#'   labs(title = "Frequency of the Name Joseph in Northern Ireland", subtitle = "Over Time",
-#'        x = "Year") +
-#'   theme_bw() +
-#'   geom_line()
+#'   ggplot(aes(x = year, y = n)) +
+#'   geom_line() +
+#'   labs(
+#'     title = "Popularity of the name `Joseph` in Northern Ireland", 
+#'     x = "Year", y = "Number of babies"
+#'     )
 "nibabynames"
