@@ -33,7 +33,7 @@ The data are released by the Office of National Statistics under the \href{http:
 library(ggplot2)
 library(dplyr)
 
-ewswbabynames \%>\%
+ewbabynames \%>\%
   filter(name == "Nicholas") \%>\%
   ggplot(aes(x = year, y = n)) +
   geom_line() +

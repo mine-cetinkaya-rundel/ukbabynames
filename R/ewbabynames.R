@@ -23,7 +23,7 @@
 #' library(ggplot2)
 #' library(dplyr)
 #' 
-#' ewswbabynames %>%
+#' ewbabynames %>%
 #'   filter(name == "Nicholas") %>%
 #'   ggplot(aes(x = year, y = n)) +
 #'   geom_line() +
