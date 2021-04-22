@@ -2,3 +2,7 @@ url: https://mine-cetinkaya-rundel.github.io/ukbabynames
 
 template:
   bootstrap: 4
+
+authors:
+  Mine Çetinkaya-Rundel:
+    href: "http://mine-cr.com/"
