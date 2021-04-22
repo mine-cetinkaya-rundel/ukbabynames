@@ -6,3 +6,19 @@ template:
 authors:
   Mine Çetinkaya-Rundel:
     href: "http://mine-cr.com/"
+
+navbar:
+  left:
+  - text: Reference
+    href: reference/index.html
+  - text: News
+    href: news/index.html
+
+reference:
+- title: Datasets
+  contents:
+  - ewbabynames
+  - nibabynames
+  - rankings
+  - scotbabynames
+  - ukbabynames
