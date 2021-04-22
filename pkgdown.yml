@@ -1,8 +1,8 @@
 pandoc: 2.7.3
-pkgdown: 1.6.1
-pkgdown_sha: ~
+pkgdown: 1.6.1.9001
+pkgdown_sha: 46764c0dba9c847957120d0bd687862346db9e98
 articles: {}
-last_built: 2021-04-22T09:56Z
+last_built: 2021-04-22T10:01Z
 urls:
   reference: https://mine-cetinkaya-rundel.github.io/ukbabynames/reference
   article: https://mine-cetinkaya-rundel.github.io/ukbabynames/articles
