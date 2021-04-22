@@ -1,6 +1,8 @@
+[![CRAN](https://www.r-pkg.org/badges/version/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
+![Downloads](https://cranlogs.r-pkg.org/badges/ukbabynames)
 [![R-CMD-check](https://github.com/mine-cetinkaya-rundel/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/mine-cetinkaya-rundel/ukbabynames/actions)
-  
-# UK Baby Names
+
+# ukbabynames
 
 This package contains four datasets:
 
@@ -12,25 +14,20 @@ This package contains four datasets:
 
 * `ukbabynames`: Each of the above datasets is bound into one dataset with an added nation column based on which dataset it came from.
 
-It is inspired by Hadley Wickham's [**babynames** package](https://cran.r-project.org/package=babynames).
+It is inspired by Hadley Wickham's [**babynames**](https://cran.r-project.org/package=babynames) package.
 
 ## Installation
 
-[![CRAN](https://www.r-pkg.org/badges/version/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
-![Downloads](https://cranlogs.r-pkg.org/badges/ukbabynames)
+You can install the released version of ukbabynames from [CRAN](https://cran.r-project.org/) with:
 
-**ukbabynames** is on CRAN. To install the latest version, simply use:
-
-```R
+```r
 install.packages("ukbabynames")
 ```
 
-To install the latest development version of **ukbabynames** from GitHub:
+You can install the development version of openintro from GitHub with:
 
-```R
-# latest version from GitHub
-if (!require("remotes")) {
-    install.packages("remotes")
-}
-remotes::install_github("mine-cetinkaya-rundel/ukbabynames")
+```r
+# install.packages("devtools")
+library(devtools)
+install_github("OpenIntroStat/openintro")
 ```
