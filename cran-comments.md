@@ -8,7 +8,14 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 note
+0 errors | 0 warnings | 1 note
 
-* Thomas J. Leeper notified CRAN about the change in package maintainer on 
-  ... by email.
+* checking CRAN incoming feasibility ... NOTE
+
+  Maintainer: 'Mine �etinkaya-Rundel <cetinkaya.mine@gmail.com>'
+    Mine �etinkaya-Rundel <cetinkaya.mine@gmail.com>
+  Old maintainer(s):
+    Thomas J. Leeper <thosjleeper@gmail.com>
+
+  * Thomas J. Leeper notified CRAN about the change in package maintainer on 
+  20 April 2021 by email.
