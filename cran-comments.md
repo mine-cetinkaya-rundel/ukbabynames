@@ -1,10 +1,11 @@
 ## Test environments
 
-* local R installation, R 4.0.4
-* windows-latest (release)
-* macOS-latest (release)
-* ubuntu-20.04 (release)
-* ubuntu-20.04 (devel)
+* local R installation, R 4.0.5
+* GitHub Actions (ubuntu-20.04): release, devel
+* GitHub Actions (windows): release
+* Github Actions (macOS): release
+* win-builder: release, devel, oldrelease
+* r-hub: windows-x86_64-devel, ubuntu-gcc-release
 
 ## R CMD check results
 
