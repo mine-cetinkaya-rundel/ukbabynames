@@ -1,4 +1,4 @@
-# ukbabynames 0.1.2
+# ukbabynames 0.2.0
 
 * Added new authors and changed maintainer in DESCRIPTION.
 * `ukbabynames` now contains data from all UK nations: England & Wales, Scotland, Northern Ireland.
