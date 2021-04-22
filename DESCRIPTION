@@ -13,11 +13,11 @@ Depends:
 License: CC0
 LazyData: true
 LazyDataCompression: xz
-URL: https://mine-cetinkaya-rundel.github.io/ukbabynames
+URL: https://mine-cetinkaya-rundel.github.io/ukbabynames/
 BugReports: https://github.com/mine-cetinkaya-rundel/ukbabynames/issues
-RoxygenNote: 7.1.1
 Suggests: 
     testthat (>= 2.1.0),
     ggplot2,
     dplyr
+RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)

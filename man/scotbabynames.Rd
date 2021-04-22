@@ -25,4 +25,17 @@ scotbabynames
 Full baby name data from 1974 to 2020 for Scotland
 from the National Records of Scotland.
 }
+\examples{
+library(ggplot2)
+library(dplyr)
+
+scotbabynames \%>\%
+  filter(name == "Ava") \%>\%
+  ggplot(aes(x = year, y = n)) +
+  geom_line() +
+  labs(
+    title = "Popularity of the name `Ava` in England & Wales", 
+    x = "Year", y = "Number of babies"
+    )
+}
 \keyword{datasets}

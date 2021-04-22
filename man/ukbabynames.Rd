@@ -30,14 +30,17 @@ data from England and Wales (\code{ewbabynames}), Scotland (\code{scotbabynames}
 Northern Ireland (\code{nibabynames}).
 }
 \examples{
-
 library(ggplot2)
 library(dplyr)
 
 ukbabynames \%>\%
-  filter(name == "Nicholas", sex == "M") \%>\%
+  filter(name == "Jack") \%>\%
   ggplot(aes(x = year, y = n, color = nation)) +
-  geom_line()
-
+  geom_line() +
+  labs(
+     title = "Popularity of the name `Jack` in the UK",
+     subtitle = "by Nation", 
+     x = "Year", y = "Number of babies",  color = NULL
+     )
 }
 \keyword{datasets}

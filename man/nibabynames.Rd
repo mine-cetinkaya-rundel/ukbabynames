@@ -25,4 +25,17 @@ nibabynames
 Full baby name data from 1997 to 2018 for Northern Ireland
 from the Northern Ireland Statistics and Research Agency.
 }
+\examples{
+library(ggplot2)
+library(dplyr)
+
+nibabynames \%>\%
+  filter(name == "Joseph") \%>\%
+  ggplot(aes(x = year, y = n)) +
+  geom_line() +
+  labs(
+    title = "Popularity of the name `Joseph` in Northern Ireland", 
+    x = "Year", y = "Number of babies"
+    )
+}
 \keyword{datasets}

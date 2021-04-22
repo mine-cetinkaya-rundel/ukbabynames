@@ -19,5 +19,18 @@
 #' Office of National Statistics. 2021. [Baby Names Statistics Girls](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls).
 #' Office of National Statistics. 2021. [Baby Names Statistics Boys](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys).
 #' @seealso [rankings]
+#' @examples 
+#' library(ggplot2)
+#' library(dplyr)
 #' 
+#' ewbabynames %>%
+#'   filter(name == "Nicholas") %>%
+#'   ggplot(aes(x = year, y = n)) +
+#'   geom_line() +
+#'   labs(
+#'     title = "Popularity of the name `Nicholas` in England & Wales", 
+#'     x = "Year", 
+#'     y = "Number of babies"
+#'     )
 "ewbabynames"
+

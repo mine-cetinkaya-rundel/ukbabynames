@@ -16,4 +16,16 @@
 #'   }
 #' @source
 #' National Records of Scotland. 2021. [Baby Names Statistics Boys and Girls](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020).
+#' @examples
+#' library(ggplot2)
+#' library(dplyr)
+#' 
+#' scotbabynames %>%
+#'   filter(name == "Ava") %>%
+#'   ggplot(aes(x = year, y = n)) +
+#'   geom_line() +
+#'   labs(
+#'     title = "Popularity of the name `Ava` in England & Wales", 
+#'     x = "Year", y = "Number of babies"
+#'     )
 "scotbabynames"
