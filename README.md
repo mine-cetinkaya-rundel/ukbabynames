@@ -32,8 +32,8 @@ This package contains five datasets:
     with an added nation column based on which dataset it came from.
 
 -   `rankings`: A longitudinal dataset containing the top-100 baby girl
-    and top-100 baby boy names over the period 1904 to 1994 (in England
-    and Wales only).
+    and top-100 baby boy names over the period 1904 to 1994, only in
+    England and Wales.
 
 It is inspired by Hadley Wickham’s
 [**babynames**](https://cran.r-project.org/package=babynames) package.
