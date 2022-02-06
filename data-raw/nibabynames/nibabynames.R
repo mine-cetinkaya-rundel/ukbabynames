@@ -5,6 +5,7 @@
 library(dplyr)
 library(readr)
 library(usethis)
+library(readxl)
 
 # download the `nibabynames` dataset from nisra.gov ----------------------------
 
