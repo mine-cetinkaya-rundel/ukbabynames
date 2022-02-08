@@ -17,11 +17,11 @@ if(!file.exists("data-raw/nibabynames/f-m/1997-2020.xlsx")){
 
 # boys data from downloaded file -----------------------------------------------
 
-B1997 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "A6:C333", col_names = FALSE) %>%
+B1997 <- read_xlsx("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "A6:C333", col_names = FALSE, skip = 1) %>%
   mutate(sex = "B", year = 1997)
-B1998 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "D5:F338", col_names = FALSE) %>%
+B1998 <- read_xlsx("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "D5:F338", col_names = FALSE, skip = 1) %>%
   mutate(sex = "B", year = 1998)
-B1999 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "G5:I338", col_names = FALSE) %>%
+B1999 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "G5:I338", col_names = FALSE, skip = 1) %>%
   mutate(sex = "B", year = 1999)
 B2000 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1", range = "J5:L337", col_names = FALSE) %>%
   mutate(sex = "B", year = 2000)

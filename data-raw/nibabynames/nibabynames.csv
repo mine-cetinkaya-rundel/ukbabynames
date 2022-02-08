@@ -1,5 +1,5 @@
 year,sex,name,n,rank,nation
-1997,M,1997 Name,Number of Babies,Rank,Northern Ireland
+1997,M,1997 Name,NA,NA,Northern Ireland
 1997,M,Matthew,410,1,Northern Ireland
 1997,M,Ryan,381,2,Northern Ireland
 1997,M,James,352,3,Northern Ireland
@@ -328,7 +328,7 @@ year,sex,name,n,rank,nation
 1997,M,Saul,3,271,Northern Ireland
 1997,M,Scot,3,271,Northern Ireland
 1997,M,Toby,3,271,Northern Ireland
-1998,M,1998 Name,Number of Babies,Rank,Northern Ireland
+1998,M,1998 Name,NA,NA,Northern Ireland
 1998,M,Matthew,429,1,Northern Ireland
 1998,M,Ryan,346,2,Northern Ireland
 1998,M,James,326,3,Northern Ireland
@@ -662,7 +662,7 @@ year,sex,name,n,rank,nation
 1998,M,Tighearnan,3,272,Northern Ireland
 1998,M,Toby,3,272,Northern Ireland
 1998,M,Warren,3,272,Northern Ireland
-1999,M,1999 Name,Number of Babies,Rank,Northern Ireland
+1999,M,1999 Name,NA,NA,Northern Ireland
 1999,M,Matthew,410,1,Northern Ireland
 1999,M,Ryan,358,2,Northern Ireland
 1999,M,James,352,3,Northern Ireland
@@ -996,7 +996,7 @@ year,sex,name,n,rank,nation
 1999,M,Tommy,3,277,Northern Ireland
 1999,M,Ultan,3,277,Northern Ireland
 1999,M,Victor,3,277,Northern Ireland
-2000,M,2000 Name,Number of Babies,Rank,Northern Ireland
+2000,M,2000 Name,NA,NA,Northern Ireland
 2000,M,Matthew,345,1,Northern Ireland
 2000,M,Jack,338,2,Northern Ireland
 2000,M,Ryan,315,3,Northern Ireland
@@ -1329,7 +1329,7 @@ year,sex,name,n,rank,nation
 2000,M,Terry,3,277,Northern Ireland
 2000,M,Todd,3,277,Northern Ireland
 2000,M,Trevor,3,277,Northern Ireland
-2001,M,2001 Name,Number of Babies,Rank,Northern Ireland
+2001,M,2001 Name,NA,NA,Northern Ireland
 2001,M,Jack,384,1,Northern Ireland
 2001,M,Matthew,344,2,Northern Ireland
 2001,M,Adam,321,3,Northern Ireland
@@ -1671,7 +1671,7 @@ year,sex,name,n,rank,nation
 2001,M,Vincent,3,280,Northern Ireland
 2001,M,Warren,3,280,Northern Ireland
 2001,M,Wilson,3,280,Northern Ireland
-2002,M,2002 Name,Number of Babies,Rank,Northern Ireland
+2002,M,2002 Name,NA,NA,Northern Ireland
 2002,M,Matthew,360,1,Northern Ireland
 2002,M,Jack,350,2,Northern Ireland
 2002,M,Ryan,287,3,Northern Ireland
@@ -1997,7 +1997,7 @@ year,sex,name,n,rank,nation
 2002,M,Tyrone,3,281,Northern Ireland
 2002,M,Ultan,3,281,Northern Ireland
 2002,M,Warren,3,281,Northern Ireland
-2003,M,2003 Name,Number of Babies,Rank,Northern Ireland
+2003,M,2003 Name,NA,NA,Northern Ireland
 2003,M,Jack,375,1,Northern Ireland
 2003,M,Matthew,317,2,Northern Ireland
 2003,M,Adam,279,3,Northern Ireland
@@ -2358,7 +2358,7 @@ year,sex,name,n,rank,nation
 2003,M,Turlough,3,299,Northern Ireland
 2003,M,Tyrese,3,299,Northern Ireland
 2003,M,Wayne,3,299,Northern Ireland
-2004,M,2004 Name,Number of Babies,Rank,Northern Ireland
+2004,M,2004 Name,NA,NA,Northern Ireland
 2004,M,Jack,353,1,Northern Ireland
 2004,M,Matthew,289,2,Northern Ireland
 2004,M,James,269,3,Northern Ireland
@@ -2730,7 +2730,7 @@ year,sex,name,n,rank,nation
 2004,M,Tyrone,3,305,Northern Ireland
 2004,M,Ultan,3,305,Northern Ireland
 2004,M,Vincent,3,305,Northern Ireland
-2005,M,2005 Name,Number of Babies,Rank,Northern Ireland
+2005,M,2005 Name,NA,NA,Northern Ireland
 2005,M,Jack,346,1,Northern Ireland
 2005,M,Matthew,294,2,Northern Ireland
 2005,M,Adam,241,3,Northern Ireland
@@ -3109,7 +3109,7 @@ year,sex,name,n,rank,nation
 2005,M,Denver,3,307,Northern Ireland
 2005,M,Saul,3,307,Northern Ireland
 2005,M,Torin,3,307,Northern Ireland
-2006,M,2006 Name,Number of Babies,Rank,Northern Ireland
+2006,M,2006 Name,NA,NA,Northern Ireland
 2006,M,Jack,312,1,Northern Ireland
 2006,M,Matthew,280,2,Northern Ireland
 2006,M,Ryan,269,3,Northern Ireland
@@ -3519,7 +3519,7 @@ year,sex,name,n,rank,nation
 2006,M,Terry,3,341,Northern Ireland
 2006,M,Ultan,3,341,Northern Ireland
 2006,M,Wiktor,3,341,Northern Ireland
-2007,M,2007 Name,Number of Babies,Rank,Northern Ireland
+2007,M,2007 Name,NA,NA,Northern Ireland
 2007,M,Jack,311,1,Northern Ireland
 2007,M,James,280,2,Northern Ireland
 2007,M,Matthew,268,3,Northern Ireland
@@ -3964,7 +3964,7 @@ year,sex,name,n,rank,nation
 2007,M,Wesley,3,357,Northern Ireland
 2007,M,Wojciech,3,357,Northern Ireland
 2007,M,Xander,3,357,Northern Ireland
-2008,M,2008 Name,Number of Babies,Rank,Northern Ireland
+2008,M,2008 Name,NA,NA,Northern Ireland
 2008,M,Jack,342,1,Northern Ireland
 2008,M,Matthew,290,2,Northern Ireland
 2008,M,Daniel,270,3,Northern Ireland
@@ -4414,7 +4414,7 @@ year,sex,name,n,rank,nation
 2008,M,Tommy,3,378,Northern Ireland
 2008,M,Torin,3,378,Northern Ireland
 2008,M,Turlough,3,378,Northern Ireland
-2009,M,2009 Name,Number of Babies,Rank,Northern Ireland
+2009,M,2009 Name,NA,NA,Northern Ireland
 2009,M,Jack,349,1,Northern Ireland
 2009,M,Matthew,290,2,Northern Ireland
 2009,M,Daniel,268,3,Northern Ireland
@@ -4883,7 +4883,7 @@ year,sex,name,n,rank,nation
 2009,M,Vincent,3,390,Northern Ireland
 2009,M,Wyatt,3,390,Northern Ireland
 2009,M,Zachariah,3,390,Northern Ireland
-2010,M,2010 Name,Number of Babies,Rank,Northern Ireland
+2010,M,2010 Name,NA,NA,Northern Ireland
 2010,M,Jack,321,1,Northern Ireland
 2010,M,Daniel,270,2,Northern Ireland
 2010,M,James,250,3,Northern Ireland
@@ -5369,7 +5369,7 @@ year,sex,name,n,rank,nation
 2010,M,Wojciech,3,387,Northern Ireland
 2010,M,Xavier,3,387,Northern Ireland
 2010,M,Zachariah,3,387,Northern Ireland
-2011,M,2011 Name,Number of Babies,Rank,Northern Ireland
+2011,M,2011 Name,NA,NA,Northern Ireland
 2011,M,Jack,305,1,Northern Ireland
 2011,M,James,284,2,Northern Ireland
 2011,M,Matthew,238,3,Northern Ireland
@@ -5820,7 +5820,7 @@ year,sex,name,n,rank,nation
 2011,M,Terence,3,375,Northern Ireland
 2011,M,Vincent,3,375,Northern Ireland
 2011,M,Wyatt,3,375,Northern Ireland
-2012,M,2012 Name,Number of Babies,Rank,Northern Ireland
+2012,M,2012 Name,NA,NA,Northern Ireland
 2012,M,Jack,310,1,Northern Ireland
 2012,M,James,300,2,Northern Ireland
 2012,M,Daniel,251,3,Northern Ireland
@@ -6330,7 +6330,7 @@ year,sex,name,n,rank,nation
 2012,M,Tymoteusz,3,403,Northern Ireland
 2012,M,Ultan,3,403,Northern Ireland
 2012,M,Victor,3,403,Northern Ireland
-2013,M,2013 Name,Number of Babies,Rank,Northern Ireland
+2013,M,2013 Name,NA,NA,Northern Ireland
 2013,M,Jack,293,1,Northern Ireland
 2013,M,James,285,2,Northern Ireland
 2013,M,Charlie,219,3,Northern Ireland
@@ -6830,7 +6830,7 @@ year,sex,name,n,rank,nation
 2013,M,Yousef,3,398,Northern Ireland
 2013,M,Yusuf,3,398,Northern Ireland
 2013,M,Zakk,3,398,Northern Ireland
-2014,M,2014 Name,Number of Babies,Rank,Northern Ireland
+2014,M,2014 Name,NA,NA,Northern Ireland
 2014,M,Jack,285,1,Northern Ireland
 2014,M,James,276,2,Northern Ireland
 2014,M,Daniel,236,3,Northern Ireland
@@ -7341,7 +7341,7 @@ year,sex,name,n,rank,nation
 2014,M,Woody,3,398,Northern Ireland
 2014,M,Xavier,3,398,Northern Ireland
 2014,M,Zachariah,3,398,Northern Ireland
-2015,M,2015 Name,Number of Babies,Rank,Northern Ireland
+2015,M,2015 Name,NA,NA,Northern Ireland
 2015,M,James,300,1,Northern Ireland
 2015,M,Jack,261,2,Northern Ireland
 2015,M,Noah,225,3,Northern Ireland
@@ -7846,7 +7846,7 @@ year,sex,name,n,rank,nation
 2015,M,Wojciech,3,415,Northern Ireland
 2015,M,Zak,3,415,Northern Ireland
 2015,M,Zander,3,415,Northern Ireland
-2016,M,2016 Name,Number of Babies,Rank,Northern Ireland
+2016,M,2016 Name,NA,NA,Northern Ireland
 2016,M,James,254,1,Northern Ireland
 2016,M,Jack,243,2,Northern Ireland
 2016,M,Oliver,207,3,Northern Ireland
@@ -8358,7 +8358,7 @@ year,sex,name,n,rank,nation
 2016,M,Wiktor,3,421,Northern Ireland
 2016,M,Wyatt,3,421,Northern Ireland
 2016,M,Zachariah,3,421,Northern Ireland
-2017,M,2017 Name,Number of Babies,Rank,Northern Ireland
+2017,M,2017 Name,NA,NA,Northern Ireland
 2017,M,James,243,1,Northern Ireland
 2017,M,Jack,226,2,Northern Ireland
 2017,M,Noah,189,3,Northern Ireland
@@ -8858,7 +8858,7 @@ year,sex,name,n,rank,nation
 2017,M,Sonnie,3,415,Northern Ireland
 2017,M,Tate,3,415,Northern Ireland
 2017,M,Tymoteusz,3,415,Northern Ireland
-2018,M,2018 Name,Number of Babies,Rank,Northern Ireland
+2018,M,2018 Name,NA,NA,Northern Ireland
 2018,M,James,217,1,Northern Ireland
 2018,M,Noah,217,1,Northern Ireland
 2018,M,Jack,201,3,Northern Ireland
@@ -9369,7 +9369,7 @@ year,sex,name,n,rank,nation
 2018,M,Torin,3,416,Northern Ireland
 2018,M,Ultan,3,416,Northern Ireland
 2018,M,Wiktor,3,416,Northern Ireland
-2019,M,2019 Name,Number of Babies,Rank,Northern Ireland
+2019,M,2019 Name,NA,NA,Northern Ireland
 2019,M,James,231,1,Northern Ireland
 2019,M,Jack,229,2,Northern Ireland
 2019,M,Noah,197,3,Northern Ireland
@@ -9884,7 +9884,7 @@ year,sex,name,n,rank,nation
 2019,M,Tyson,3,418,Northern Ireland
 2019,M,Vinnie,3,418,Northern Ireland
 2019,M,Wiktor,3,418,Northern Ireland
-2020,M,2020 Name,Number of Babies,Rank,Northern Ireland
+2020,M,2020 Name,NA,NA,Northern Ireland
 2020,M,James,190,1,Northern Ireland
 2020,M,Jack,175,2,Northern Ireland
 2020,M,Noah,174,3,Northern Ireland
@@ -10385,7 +10385,7 @@ year,sex,name,n,rank,nation
 2020,M,Zak,3,392,Northern Ireland
 2020,M,Zander,3,392,Northern Ireland
 2020,M,Zayn,3,392,Northern Ireland
-1997,F,1997 Name,Number of Babies,Rank,Northern Ireland
+1997,F,1997 Name,NA,NA,Northern Ireland
 1997,F,Chloe,361,1,Northern Ireland
 1997,F,Shannon,313,2,Northern Ireland
 1997,F,Rebecca,297,3,Northern Ireland
@@ -10852,7 +10852,7 @@ year,sex,name,n,rank,nation
 1997,F,Tiegan,3,358,Northern Ireland
 1997,F,Tonicha,3,358,Northern Ireland
 1997,F,Tory,3,358,Northern Ireland
-1998,F,1998 Name,Number of Babies,Rank,Northern Ireland
+1998,F,1998 Name,NA,NA,Northern Ireland
 1998,F,Chloe,434,1,Northern Ireland
 1998,F,Emma,307,2,Northern Ireland
 1998,F,Rebecca,254,3,Northern Ireland
@@ -11292,7 +11292,7 @@ year,sex,name,n,rank,nation
 1998,F,Teri,3,351,Northern Ireland
 1998,F,Tessa,3,351,Northern Ireland
 1998,F,Tracey,3,351,Northern Ireland
-1999,F,1999 Name,Number of Babies,Rank,Northern Ireland
+1999,F,1999 Name,NA,NA,Northern Ireland
 1999,F,Chloe,374,1,Northern Ireland
 1999,F,Rebecca,268,2,Northern Ireland
 1999,F,Emma,255,3,Northern Ireland
@@ -11711,7 +11711,7 @@ year,sex,name,n,rank,nation
 1999,F,Shelley,3,344,Northern Ireland
 1999,F,Tamara,3,344,Northern Ireland
 1999,F,Tyler,3,344,Northern Ireland
-2000,F,2000 Name,Number of Babies,Rank,Northern Ireland
+2000,F,2000 Name,NA,NA,Northern Ireland
 2000,F,Chloe,287,1,Northern Ireland
 2000,F,Emma,242,2,Northern Ireland
 2000,F,Caitlin,228,3,Northern Ireland
@@ -12143,7 +12143,7 @@ year,sex,name,n,rank,nation
 2000,F,Tanya,3,348,Northern Ireland
 2000,F,Tea,3,348,Northern Ireland
 2000,F,Tess,3,348,Northern Ireland
-2001,F,2001 Name,Number of Babies,Rank,Northern Ireland
+2001,F,2001 Name,NA,NA,Northern Ireland
 2001,F,Chloe,311,1,Northern Ireland
 2001,F,Lauren,234,2,Northern Ireland
 2001,F,Emma,229,3,Northern Ireland
@@ -12564,7 +12564,7 @@ year,sex,name,n,rank,nation
 2001,F,Tianna,3,343,Northern Ireland
 2001,F,Tiegan,3,343,Northern Ireland
 2001,F,Tiernagh,3,343,Northern Ireland
-2002,F,2002 Name,Number of Babies,Rank,Northern Ireland
+2002,F,2002 Name,NA,NA,Northern Ireland
 2002,F,Chloe,254,1,Northern Ireland
 2002,F,Caitlin,227,2,Northern Ireland
 2002,F,Katie,217,3,Northern Ireland
@@ -12983,7 +12983,7 @@ year,sex,name,n,rank,nation
 2002,F,Teagan,3,339,Northern Ireland
 2002,F,Teigan,3,339,Northern Ireland
 2002,F,Teresa,3,339,Northern Ireland
-2003,F,2003 Name,Number of Babies,Rank,Northern Ireland
+2003,F,2003 Name,NA,NA,Northern Ireland
 2003,F,Emma,248,1,Northern Ireland
 2003,F,Katie,233,2,Northern Ireland
 2003,F,Chloe,209,3,Northern Ireland
@@ -13409,7 +13409,7 @@ year,sex,name,n,rank,nation
 2003,F,Una,3,331,Northern Ireland
 2003,F,Vanessa,3,331,Northern Ireland
 2003,F,Yazmin,3,331,Northern Ireland
-2004,F,2004 Name,Number of Babies,Rank,Northern Ireland
+2004,F,2004 Name,NA,NA,Northern Ireland
 2004,F,Katie,307,1,Northern Ireland
 2004,F,Emma,260,2,Northern Ireland
 2004,F,Sophie,217,3,Northern Ireland
@@ -13889,7 +13889,7 @@ year,sex,name,n,rank,nation
 2004,F,Tiernagh,3,372,Northern Ireland
 2004,F,Tiffany,3,372,Northern Ireland
 2004,F,Toluwanimi,3,372,Northern Ireland
-2005,F,2005 Name,Number of Babies,Rank,Northern Ireland
+2005,F,2005 Name,NA,NA,Northern Ireland
 2005,F,Katie,290,1,Northern Ireland
 2005,F,Emma,220,2,Northern Ireland
 2005,F,Ellie,217,3,Northern Ireland
@@ -14371,7 +14371,7 @@ year,sex,name,n,rank,nation
 2005,F,Tiffany,3,377,Northern Ireland
 2005,F,Vanessa,3,377,Northern Ireland
 2005,F,Yazmin,3,377,Northern Ireland
-2006,F,2006 Name,Number of Babies,Rank,Northern Ireland
+2006,F,2006 Name,NA,NA,Northern Ireland
 2006,F,Katie,297,1,Northern Ireland
 2006,F,Grace,231,2,Northern Ireland
 2006,F,Sophie,221,3,Northern Ireland
@@ -14872,7 +14872,7 @@ year,sex,name,n,rank,nation
 2006,F,Tessa,3,384,Northern Ireland
 2006,F,Tyana,3,384,Northern Ireland
 2006,F,Veronica,3,384,Northern Ireland
-2007,F,2007 Name,Number of Babies,Rank,Northern Ireland
+2007,F,2007 Name,NA,NA,Northern Ireland
 2007,F,Katie,281,1,Northern Ireland
 2007,F,Grace,234,2,Northern Ireland
 2007,F,Sophie,208,3,Northern Ireland
@@ -15405,7 +15405,7 @@ year,sex,name,n,rank,nation
 2007,F,Trinity,3,413,Northern Ireland
 2007,F,Ugne,3,413,Northern Ireland
 2007,F,Yasmin,3,413,Northern Ireland
-2008,F,2008 Name,Number of Babies,Rank,Northern Ireland
+2008,F,2008 Name,NA,NA,Northern Ireland
 2008,F,Katie,281,1,Northern Ireland
 2008,F,Sophie,221,2,Northern Ireland
 2008,F,Grace,217,3,Northern Ireland
@@ -15950,7 +15950,7 @@ year,sex,name,n,rank,nation
 2008,F,Teirna,3,439,Northern Ireland
 2008,F,Tiegan,3,439,Northern Ireland
 2008,F,Ugne,3,439,Northern Ireland
-2009,F,2009 Name,Number of Babies,Rank,Northern Ireland
+2009,F,2009 Name,NA,NA,Northern Ireland
 2009,F,Katie,254,1,Northern Ireland
 2009,F,Sophie,253,2,Northern Ireland
 2009,F,Grace,239,3,Northern Ireland
@@ -16479,7 +16479,7 @@ year,sex,name,n,rank,nation
 2009,F,Trudy,3,419,Northern Ireland
 2009,F,Ugne,3,419,Northern Ireland
 2009,F,Urte,3,419,Northern Ireland
-2010,F,2010 Name,Number of Babies,Rank,Northern Ireland
+2010,F,2010 Name,NA,NA,Northern Ireland
 2010,F,Sophie,262,1,Northern Ireland
 2010,F,Katie,235,2,Northern Ireland
 2010,F,Grace,222,3,Northern Ireland
@@ -17041,7 +17041,7 @@ year,sex,name,n,rank,nation
 2010,F,Una,3,430,Northern Ireland
 2010,F,Vilte,3,430,Northern Ireland
 2010,F,Yazmin,3,430,Northern Ireland
-2011,F,2011 Name,Number of Babies,Rank,Northern Ireland
+2011,F,2011 Name,NA,NA,Northern Ireland
 2011,F,Sophie,265,1,Northern Ireland
 2011,F,Grace,234,2,Northern Ireland
 2011,F,Emily,206,3,Northern Ireland
@@ -17606,7 +17606,7 @@ year,sex,name,n,rank,nation
 2011,F,Xin,3,444,Northern Ireland
 2011,F,Yvie,3,444,Northern Ireland
 2011,F,Zarah,3,444,Northern Ireland
-2012,F,2012 Name,Number of Babies,Rank,Northern Ireland
+2012,F,2012 Name,NA,NA,Northern Ireland
 2012,F,Sophie,250,1,Northern Ireland
 2012,F,Emily,218,2,Northern Ireland
 2012,F,Grace,198,3,Northern Ireland
@@ -18165,7 +18165,7 @@ year,sex,name,n,rank,nation
 2012,F,Thea,3,451,Northern Ireland
 2012,F,Trinity,3,451,Northern Ireland
 2012,F,Yazmin,3,451,Northern Ireland
-2013,F,2013 Name,Number of Babies,Rank,Northern Ireland
+2013,F,2013 Name,NA,NA,Northern Ireland
 2013,F,Emily,203,1,Northern Ireland
 2013,F,Grace,203,1,Northern Ireland
 2013,F,Sophie,194,3,Northern Ireland
@@ -18733,7 +18733,7 @@ year,sex,name,n,rank,nation
 2013,F,Tiffany,3,440,Northern Ireland
 2013,F,Ugne,3,440,Northern Ireland
 2013,F,Whitney,3,440,Northern Ireland
-2014,F,2014 Name,Number of Babies,Rank,Northern Ireland
+2014,F,2014 Name,NA,NA,Northern Ireland
 2014,F,Emily,261,1,Northern Ireland
 2014,F,Grace,189,2,Northern Ireland
 2014,F,Sophie,180,3,Northern Ireland
@@ -19275,7 +19275,7 @@ year,sex,name,n,rank,nation
 2014,F,Teja,3,439,Northern Ireland
 2014,F,Tori,3,439,Northern Ireland
 2014,F,Una,3,439,Northern Ireland
-2015,F,2015 Name,Number of Babies,Rank,Northern Ireland
+2015,F,2015 Name,NA,NA,Northern Ireland
 2015,F,Emily,233,1,Northern Ireland
 2015,F,Ella,197,2,Northern Ireland
 2015,F,Grace,192,3,Northern Ireland
@@ -19819,7 +19819,7 @@ year,sex,name,n,rank,nation
 2015,F,Valentina,3,426,Northern Ireland
 2015,F,Vivien,3,426,Northern Ireland
 2015,F,Weronika,3,426,Northern Ireland
-2016,F,2016 Name,Number of Babies,Rank,Northern Ireland
+2016,F,2016 Name,NA,NA,Northern Ireland
 2016,F,Emily,237,1,Northern Ireland
 2016,F,Grace,198,2,Northern Ireland
 2016,F,Olivia,191,3,Northern Ireland
@@ -20380,7 +20380,7 @@ year,sex,name,n,rank,nation
 2016,F,Urte,3,440,Northern Ireland
 2016,F,Vivien,3,440,Northern Ireland
 2016,F,Weronika,3,440,Northern Ireland
-2017,F,2017 Name,Number of Babies,Rank,Northern Ireland
+2017,F,2017 Name,NA,NA,Northern Ireland
 2017,F,Emily,216,1,Northern Ireland
 2017,F,Grace,202,2,Northern Ireland
 2017,F,Olivia,179,3,Northern Ireland
@@ -20954,7 +20954,7 @@ year,sex,name,n,rank,nation
 2017,F,Winter,3,432,Northern Ireland
 2017,F,Zaira,3,432,Northern Ireland
 2017,F,Zofia,3,432,Northern Ireland
-2018,F,2018 Name,Number of Babies,Rank,Northern Ireland
+2018,F,2018 Name,NA,NA,Northern Ireland
 2018,F,Grace,221,1,Northern Ireland
 2018,F,Emily,203,2,Northern Ireland
 2018,F,Olivia,178,3,Northern Ireland
@@ -21515,7 +21515,7 @@ year,sex,name,n,rank,nation
 2018,F,Vienna,3,434,Northern Ireland
 2018,F,Vilte,3,434,Northern Ireland
 2018,F,Winnie,3,434,Northern Ireland
-2019,F,2019 Name,Number of Babies,Rank,Northern Ireland
+2019,F,2019 Name,NA,NA,Northern Ireland
 2019,F,Grace,234,1,Northern Ireland
 2019,F,Emily,161,2,Northern Ireland
 2019,F,Ella,149,3,Northern Ireland
@@ -22064,7 +22064,7 @@ year,sex,name,n,rank,nation
 2019,F,Tiana,3,424,Northern Ireland
 2019,F,Tiarna,3,424,Northern Ireland
 2019,F,Vivien,3,424,Northern Ireland
-2020,F,2020 Name,Number of Babies,Rank,Northern Ireland
+2020,F,2020 Name,NA,NA,Northern Ireland
 2020,F,Grace,176,1,Northern Ireland
 2020,F,Emily,146,2,Northern Ireland
 2020,F,Isla,144,3,Northern Ireland
