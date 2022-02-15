@@ -68,7 +68,7 @@ B2020 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1
 
 # girls data from downloaded file ----------------------------------------------
 
-G1997 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "A6:C471", col_names = FALSE) %>%
+G1997 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "A6:C472", col_names = FALSE) %>%
   mutate(sex = "G", year = 1997)
 G1998 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "D6:F444", col_names = FALSE) %>%
   mutate(sex = "G", year = 1998)
@@ -131,9 +131,6 @@ nibabynames <- bind_rows(
   select(year, sex, name, n, rank) %>%
   mutate(sex = if_else(sex == "B", "M", "F")) %>%
   mutate(nation = "Northern Ireland")
-  
-nibabynames$n <- as.double(nibabynames$n)  
-nibabynames$rank <- as.double(nibabynames$rank)
 
 # export -----------------------------------------------------------------------
   
