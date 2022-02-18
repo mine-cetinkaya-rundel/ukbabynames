@@ -6,7 +6,7 @@
 #' 
 #' @name ukbabynames
 #' @docType data
-#' @format A data frame with 550,587 observations on 6 variables.
+#' @format A data frame with 565,817 observations on 6 variables.
 #' \describe{
 #'   \item{year}{A year (1974-2020).}
 #'   \item{sex}{Sex, `M` for male and `F` for female.}
@@ -18,7 +18,7 @@
 #' @source
 #' Office of National Statistics. 2021. [Baby Names Statistics Girls](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls).
 #' Office of National Statistics. 2021. [Baby Names Statistics Boys](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys).
-#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2018).
+#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2020-0).
 #' National Records of Scotland. 2021. [Baby Names Statistics Boys and Girls](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020).
 #' @examples 
 #' library(ggplot2)

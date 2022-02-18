@@ -1,13 +1,13 @@
 #' England & Wales baby names
 #'
-#' Full baby name data from 1996 to 2019 for England and Wales
+#' Full baby name data from 1996 to 2020 for England and Wales
 #' from the Office of National Statistics.
 #'
 #' @name ewbabynames
 #' @docType data
 #' @format A data frame with 281,667 observations on 6 variables.
 #' \describe{
-#'   \item{year}{A year (1996-2019).}
+#'   \item{year}{A year (1996-2020).}
 #'   \item{sex}{Sex, `M` for male and `F` for female.}
 #'   \item{name}{A name.}
 #'   \item{n}{Count of name within year and sex.}
