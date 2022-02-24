@@ -70,21 +70,21 @@ B2020 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 1
 
 G1997 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "A6:C472", col_names = FALSE) %>%
   mutate(sex = "G", year = 1997)
-G1998 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "D6:F444", col_names = FALSE) %>%
+G1998 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "D6:F445", col_names = FALSE) %>%
   mutate(sex = "G", year = 1998)
-G1999 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "G6:I423", col_names = FALSE) %>%
+G1999 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "G6:I424", col_names = FALSE) %>%
   mutate(sex = "G", year = 1999)
-G2000 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "J6:L436", col_names = FALSE) %>%
+G2000 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "J6:L437", col_names = FALSE) %>%
   mutate(sex = "G", year = 2000)
-G2001 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "M6:O425", col_names = FALSE) %>%
+G2001 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "M6:O426", col_names = FALSE) %>%
   mutate(sex = "G", year = 2001)
-G2002 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "P6:R423", col_names = FALSE) %>%
+G2002 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "P6:R424", col_names = FALSE) %>%
   mutate(sex = "G", year = 2002)
-G2003 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "S6:U430", col_names = FALSE) %>%
+G2003 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "S6:U431", col_names = FALSE) %>%
   mutate(sex = "G", year = 2003)
-G2004 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "V6:X484", col_names = FALSE) %>%
+G2004 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "V6:X485", col_names = FALSE) %>%
   mutate(sex = "G", year = 2004)
-G2005 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "Y6:AA486", col_names = FALSE) %>%
+G2005 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "Y6:AA487", col_names = FALSE) %>%
   mutate(sex = "G", year = 2005)
 G2006 <- read_excel("data-raw/nibabynames/f-m/1997-2020.xlsx", sheet  = "Table 2", range = "AB6:AD506", col_names = FALSE) %>%
   mutate(sex = "G", year = 2006)
