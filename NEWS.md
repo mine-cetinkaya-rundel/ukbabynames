@@ -1,6 +1,6 @@
 # ukbabynames 0.3.0
 * Added new author in DESCRIPTION.
-* Updated `nibabynames`, `ewbabynames` with 2020 data.
+* Updated `nibabynames`, `ewbabynames`, and `ukbabynames` with 2020 data.
 * Updated tests for added data.
 
 # ukbabynames 0.2.0

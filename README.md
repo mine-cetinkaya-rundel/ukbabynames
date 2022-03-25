@@ -11,17 +11,17 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecy
 status](https://github.com/mine-cetinkaya-rundel/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/mine-cetinkaya-rundel/ukbabynames/actions)
 [![CRAN RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
-[![R-CMD-check](https://github.com/saralemus7/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/ukbabynames/actions)
+[![R-CMD-check](https://github.com/mine-cetinkaya-rundel/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/mine-cetinkaya-rundel/ukbabynames/actions)
 <!-- badges: end -->
 
 This package contains five datasets:
 
--   `ewbabynames`: For each year from 1996 to 2019, the number of
+-   `ewbabynames`: For each year from 1996 to 2020, the number of
     children of each sex given each name in England and Wales. All names
     with more than 3 uses are included. Provided by the UK Office of
     National Statistics.
 
--   `nibabynames`: For each year from 1997 to 2018, the number of
+-   `nibabynames`: For each year from 1997 to 2020, the number of
     children of each sex given each name in Northern Ireland. Provided
     by the Northern Ireland Statistics and Research Agency.
 
