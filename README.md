@@ -11,6 +11,7 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecy
 status](https://github.com/mine-cetinkaya-rundel/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/mine-cetinkaya-rundel/ukbabynames/actions)
 [![CRAN RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/ukbabynames)](https://cran.r-project.org/package=ukbabynames)
+[![R-CMD-check](https://github.com/saralemus7/ukbabynames/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/ukbabynames/actions)
 <!-- badges: end -->
 
 This package contains five datasets:

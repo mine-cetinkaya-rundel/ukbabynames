@@ -1,13 +1,13 @@
 #' Northern Ireland baby names
 #'
-#' Full baby name data from 1997 to 2018 for Northern Ireland
+#' Full baby name data from 1997 to 2020 for Northern Ireland
 #' from the Northern Ireland Statistics and Research Agency.
 #'
 #' @name nibabynames
 #' @docType data
-#' @format A data frame with 20,500 observations on 6 variables.
+#' @format A data frame with 22,596 observations on 6 variables.
 #' \describe{
-#'   \item{year}{A year (1997-2018).}
+#'   \item{year}{A year (1997-2020).}
 #'   \item{sex}{Sex, `M` for male and `F` for female.}
 #'   \item{name}{A name.}
 #'   \item{n}{Count of name within year and sex.}
@@ -15,7 +15,7 @@
 #'   \item{nation}{Nation of data source: `Northern Ireland`.}
 #'   }
 #' @source
-#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2018).
+#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2020-0).
 #' @examples 
 #' library(ggplot2)
 #' library(dplyr)

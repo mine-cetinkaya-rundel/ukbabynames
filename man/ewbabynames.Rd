@@ -5,9 +5,9 @@
 \alias{ewbabynames}
 \title{England & Wales baby names}
 \format{
-A data frame with 281,667 observations on 6 variables.
+A data frame with 294,801 observations on 6 variables.
 \describe{
-\item{year}{A year (1996-2019).}
+\item{year}{A year (1996-2020).}
 \item{sex}{Sex, \code{M} for male and \code{F} for female.}
 \item{name}{A name.}
 \item{n}{Count of name within year and sex.}
@@ -23,7 +23,7 @@ Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulati
 ewbabynames
 }
 \description{
-Full baby name data from 1996 to 2019 for England and Wales
+Full baby name data from 1996 to 2020 for England and Wales
 from the Office of National Statistics.
 }
 \details{

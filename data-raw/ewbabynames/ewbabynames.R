@@ -28,6 +28,7 @@ download_xlsx <- function(x, sex, year) {
 # download girls data ----------------------------------------------------------
 
 dir.create("data-raw/ewbabynames/f")
+download_xlsx("2020girlsnames.xlsx", "f", 2020)
 download_xlsx("2019girlsnames.xlsx", "f", 2019)
 download("2018girlsnames.xls", "f", 2018)
 download("2017girlsnames.xls", "f", 2017)
@@ -56,6 +57,7 @@ download("1996girls_tcm77-254024.xls", "f", 1996)
 # download boys data -----------------------------------------------------------
 
 dir.create("data-raw/ewbabynames/m")
+download_xlsx("2020boysnames.xlsx", "m", 2020)
 download_xlsx("2019boysnames.xlsx", "m", 2019)
 download("2018boysnames.xls", "m", 2018)
 download("2017boysnames.xls", "m", 2017)
@@ -87,7 +89,7 @@ read_plus <- function(sex, year, ...) {
     if(year < 2019){
         x <- as.data.frame(readxl::read_excel(paste0("data-raw/ewbabynames/", sex, "/", year, ".xls"), ...))
     }
-    if(year == 2019){
+    if(year >= 2019){
         x <- as.data.frame(readxl::read_excel(paste0("data-raw/ewbabynames/", sex, "/", year, ".xlsx"), ...))
     }    
     names(x) <- c("rank", "name", "n")
@@ -124,6 +126,7 @@ girls[[21]] <- read_plus("f", 2016, range = "Table 6!B6:D7519", col_names = FALS
 girls[[22]] <- read_plus("f", 2017, range = "Table 6!A7:C7521", col_names = FALSE)
 girls[[23]] <- read_plus("f", 2018, range = "Table 6!A7:C7362", col_names = FALSE)
 girls[[24]] <- read_plus("f", 2019, range = "Table 6!A7:C7220", col_names = FALSE)
+girls[[25]] <- read_plus("f", 2020, range = "Table 6!A7:C7162", col_names = FALSE)
 
 # import boys data -------------------------------------------------------------
 
@@ -152,6 +155,7 @@ boys[[21]] <- read_plus("m", 2016, range = "Table 6!B7:D6253", col_names = FALSE
 boys[[22]] <- read_plus("m", 2017, range = "Table 6!A7:C6170", col_names = FALSE)
 boys[[23]] <- read_plus("m", 2018, range = "Table 6!A7:C6123", col_names = FALSE)
 boys[[24]] <- read_plus("m", 2019, range = "Table 6!A7:C6097", col_names = FALSE)
+boys[[25]] <- read_plus("m", 2020, range = "Table 6!A7:C5984", col_names = FALSE)
 
 # combine ----------------------------------------------------------------------
 

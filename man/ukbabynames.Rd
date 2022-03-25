@@ -5,7 +5,7 @@
 \alias{ukbabynames}
 \title{UK baby names}
 \format{
-A data frame with 550,587 observations on 6 variables.
+A data frame with 565,817 observations on 6 variables.
 \describe{
 \item{year}{A year (1974-2020).}
 \item{sex}{Sex, \code{M} for male and \code{F} for female.}
@@ -18,7 +18,7 @@ A data frame with 550,587 observations on 6 variables.
 \source{
 Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls}{Baby Names Statistics Girls}.
 Office of National Statistics. 2021. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys}{Baby Names Statistics Boys}.
-Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2018}{Baby Names Statistics Boys and Girls}.
+Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2020-0}{Baby Names Statistics Boys and Girls}.
 National Records of Scotland. 2021. \href{https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2020}{Baby Names Statistics Boys and Girls}.
 }
 \usage{
