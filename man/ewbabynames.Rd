@@ -27,7 +27,7 @@ Full baby name data from 1996 to 2020 for England and Wales
 from the Office of National Statistics.
 }
 \details{
-The data are released by the Office of National Statistics under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
+The data are released by the Office of National Statistics under the \href{https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government License v3.0}.
 }
 \examples{
 library(ggplot2)

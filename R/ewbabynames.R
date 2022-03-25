@@ -14,7 +14,7 @@
 #'   \item{rank}{Rank of name within year and sex.}
 #'   \item{nation}{Nation of data source: `England & Wales`.}
 #'   }
-#' @details The data are released by the Office of National Statistics under the [Open Government License v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+#' @details The data are released by the Office of National Statistics under the [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 #' @source
 #' Office of National Statistics. 2021. [Baby Names Statistics Girls](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls).
 #' Office of National Statistics. 2021. [Baby Names Statistics Boys](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys).
